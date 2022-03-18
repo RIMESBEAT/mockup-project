@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+
+    background: #303030;
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 40px;
+	/*background-color: #f7dae2;*/
+	box-shadow: 3px 6px  7px 3px rgba(0, 0, 0, 0.2);
+	z-index: 999;
+	position: sticky;
+	top: 0;
+	left: 0;
+
+    
+}
+#header img{
+    width: 64px;
+    padding: 10px;
+    margin-left: 85px;
+    
+
+}
+.navbar{
+    padding: 0 50px;
+    
+    
+    
+
+}
+#header .navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+.navbar ul li{
+    
+    list-style: none;
+    
+    
+}
+.navbar ul li a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    margin: 0 25px;
+    transition: 0.3s ease;
+}
+.navbar ul li a:hover{
+    color: #ff5900; 
+}
+.navbar ul li a:active{
+    color: #e8631c;
+}
+#header .srchicon img{
+    width: 30px;
+   transition: 0.3s ease;
+}
+#header .srchicon img:hover{
+    background-color: #923a0b;
+}
+#header .srchicon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 80px;
+}
+#hero{
+    background-image: url(/img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.herocont {
+    padding: 200px;
+}
+.herocont h1{
+    font-size: 58px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.herocont p{
+    font-size: 18px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.herobut{
+    background-color: #fc6412;
+    padding: 10px 60px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s ease;
+}
+#hero .herobut:hover{
+    color: white;
+}
+.herobut a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#tour{
+    padding: 0 50px;
+    background: #ff5900;
+    background-image: url(/img/Shape.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-attachment: fixed;
+    width: 100%;
+    text-align: center;
+    height: 99vh;
+    
+    
+
+}
+#tour span{
+    line-height: 55px;
+    color: white;
+    font-size: 20px;
+    
+
+}
+#tour p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-size: 17px;
+    
+}
+#tour h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+}
+ .dance-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+#tour .dance{
+    width: 20%;
+    
+    background: #303030;
+    cursor: pointer;
+    margin: 10px;
+    
+   
+
+}
+#tour img{
+    width: 100%;
+    
+}
+#pricing{
+    padding: 40px;
+    text-align: center;
+    background-color:#303030;
+    background-image: url(/img/Shape.jpg);
+    background-size: 700px;
+    background-repeat:space;
+    background-attachment: fixed;
+}
+#pricing .pricing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+#pricing .price{
+    background-color: #ff5900;
+    width: 23%;
+    padding: 10px;
+    margin: 10px;
+   
+    
+}
+#pricing img{
+    width: 50%;
+    padding: 10px;
+    
+    
+}
+#pricing h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 90px;
+}
+#pricing .des{
+    color: white;
+   
+}
+#pricing p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 25px;
+    font-size: 17px;
+    padding: 20px;
+}
+#pricing span{
+    line-height: 25px;
+    color: white;
+    font-size: 20px;
+}
+#pricing .cash{
+    padding: 14px 12px;
+    background: #303030;
+    border-radius: 5px;
+    margin: 0 12px;
+    transition: 00.3s ease;
+}
+#pricing .cash:hover{
+    color: #ffffff;
+    cursor: pointer;
+    background-color:#ff5900;
+    box-shadow: 3px 4px 6px 0 rgba(0, 0, 0, 0.5);
+}
+#service{
+    background-color: #ff5900;
+    width: 100%;
+    height: auto;
+
+
+    
+    
+}
+
+#service .srv-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image:url(/icon/Shape1.gif);
+    background-repeat: repeat-y;
+    background-size: 400px;
+    background-position: right;
+    background-attachment: fixed;
+    
+   
+    
+   
+}
+
+#service .srv-cont1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image:url(/icon/Shape1.gif);
+    background-repeat: repeat-y;
+    background-size: 400px;
+    background-position: left;
+    background-attachment: fixed;
+    
+   
+    
+   
+}
+#service img{
+    width: 100%;
+}
+#service .des{
+    align-items: center;
+    justify-content: center;
+    margin: 0 100px;
+    color: white;
+ 
+
+
+}
+
+#service h2, p{
+    line-height: 30px;
+    font-size: 20px;
+    
+
+}
+#service h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+#service .read{
+    margin: 100px 40px;
+    cursor: pointer;
+
+}
+#service h4{
+    background-color: #303030;
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    transition: 0.3s ease;
+
+}
+#service h4:hover{
+    background-color: #a53b01;
+    background-color:#ff5900;
+    box-shadow: 3px 4px 6px 0 rgba(0, 0, 0, 0.5);
+}
+#statistic{
+    text-align: center;
+    padding-top: 80px;
+    background: #303030;
+    color: #ffffff;
+    width: 100%;
+    height: 50vh;
+}
+#statistic .stats-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+}
+#statistic h2{
+    line-height: 100px;
+    font-size: 50px;
+}
+#statistic .des{
+    align-items: center;
+    padding: 0 100px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+#info{
+    background-image: url(/img/tour5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 120vh;
+   
+    
+
+}
+#info .info-back{
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgba(255, 81, 0, 0.6);
+ 
+    
+}
+#info .des{
+    padding: 400px;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    line-height: 120px;
+    font-size: 20px ;
+}
+#subscribe{
+    background-image: url(/img/Shape.jpg);
+    background-repeat: unset 2;
+    background-position: top;
+    background-size: 660px;
+    background-color: #e65000;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+}
+#subscribe h2{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#subscribe .sub-cont{
+    padding: 90px;
+    color: #ffffff;
+    line-height: 90px;
+}
+#subscribe input{
+    padding: 6px 40px;
+}
+#subscribe button{
+    padding: 6px 20px;
+    margin: 0 -8px;
+    background: #303030;
+    color: #ffffff;
+}
+#footer{
+    background-color: #303030;
+    text-align: center;
+    width: 100%;
+    height: 65vh;
+
+}
+#footer .footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+       
+}
+#footer .icon img{
+    width: 10%;
+}
+.musicology{
+    width: 25%;
+    text-align: left;
+    margin: 110px;
+
+    
+}
+.musicology h2{
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+.musicology p{
+    font-size: 14px;
+    color: #ffffff;
+    text-align: left; 
+    padding: 20px;
+}
+.musicology .icon{
+    padding: 10px 20px;
+    
+}
+#footer li{
+    list-style: none;
+    text-align: left;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: left; 
+
+}
+#footer .about{
+    margin: 80px;
+}
+#footer .about a{
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 30px;
+}
+#footer .about h2{
+    color: #ffffff;
+    line-height: 60px;
+    font-size: 14px;
+}
+
+#footer .footer-container h2{
+    text-align: left;
+}
+#footer .footer-container span{
+    display: flex;
+    justify-content: space-between;
+    
+}
