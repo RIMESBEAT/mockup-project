@@ -75,7 +75,7 @@
     margin-left: 80px;
 }
 #hero{
-    background-image: url(/img/background.jpg);
+    background-image: url(./img/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,7 +115,7 @@
 #tour{
     padding: 0 50px;
     background: #ff5900;
-    background-image: url(/img/Shape.jpg);
+    background-image: url(./img/Shape.jpg);
     background-repeat: no-repeat;
     background-size: 700px;
     background-attachment: fixed;
@@ -173,7 +173,7 @@
     padding: 40px;
     text-align: center;
     background-color:#303030;
-    background-image: url(/img/Shape.jpg);
+    background-image: url(./img/Shape.jpg);
     background-size: 700px;
     background-repeat:space;
     background-attachment: fixed;
@@ -248,7 +248,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-image:url(/icon/Shape1.gif);
+    background-image:url(./icon/Shape1.gif);
     background-repeat: repeat-y;
     background-size: 400px;
     background-position: right;
@@ -264,7 +264,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-image:url(/icon/Shape1.gif);
+    background-image:url(./icon/Shape1.gif);
     background-repeat: repeat-y;
     background-size: 400px;
     background-position: left;
@@ -344,7 +344,7 @@
     color: #ffffff;
 }
 #info{
-    background-image: url(/img/tour5.jpg);
+    background-image: url(./img/tour5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -371,7 +371,7 @@
     font-size: 20px ;
 }
 #subscribe{
-    background-image: url(/img/Shape.jpg);
+    background-image: url(./img/Shape.jpg);
     background-repeat: unset 2;
     background-position: top;
     background-size: 660px;
