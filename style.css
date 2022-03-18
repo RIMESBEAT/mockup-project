@@ -113,7 +113,7 @@
 }
 
 #tour{
-    padding: 0 50px;
+    flex-wrap: wrap;
     background: #ff5900;
     background-image: url(./img/Shape.jpg);
     background-repeat: no-repeat;
