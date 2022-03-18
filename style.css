@@ -359,6 +359,9 @@
     justify-content: center;
     
     background-color: rgba(255, 81, 0, 0.6);
+    width: auto
+    
+    ;
  
     
 }
